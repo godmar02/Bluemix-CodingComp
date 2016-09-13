@@ -1,6 +1,6 @@
 # Getting ready for a Bluemix Coding Competition
 
-Here is a list of material that we found particularly useful to get hackathon participants up and running quickly.
+Here is a list of material that we found particularly useful to get participants up and running quickly.
 
 ## Sign up for Bluemix
 
@@ -18,7 +18,7 @@ Start with these **introductory videos:**
 
 ### Learn how to deploy an app based on Cloud Foundry
 
-[Cloud Foundry][cloud_foundry] is an open-source platform-as-a-Service (PaaS) that allows you to concentrate on your code without worrying about the underlying infrastructure (like VMs or containers). That allows you to get your apps up and running quickly ... an ideal environment for a hackathon.
+[Cloud Foundry][cloud_foundry] is an open-source platform-as-a-Service (PaaS) that allows you to concentrate on your code without worrying about the underlying infrastructure (like VMs or containers). That allows you to get your apps up and running quickly ... an ideal environment for a coding competition.
 
 Here's a a link to get you started: [Creating Cloud Foundry apps][cf_basics]
 
@@ -34,7 +34,7 @@ If you're working with others as part of a team, you'll probably want to use a c
 
 #### Internet of Things (IoT)
 
-If the hackathon has an IoT theme to it, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge.
+If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge.
 
 Node-RED can be deployed on Bluemix [with a single click.][iotp_boilerplate]
 
@@ -42,7 +42,7 @@ Next, [learn more about our IoT platform service][IoTP_url]. Once you understand
 
 #### Using Watson cognitive services
 
-Most hackathon participants want to take our IBM Watson services for a spin. Here are two detailed tutorials on how to integrate a cognitive service into your app:
+Most coding competition participants want to take our IBM Watson services for a spin. Here are two detailed tutorials on how to integrate a cognitive service into your app:
 
 * [Developing a Watson application in Node.js][watson_nodejs]
 * [Developing a Watson application in Java][watson_java]
@@ -76,26 +76,16 @@ And [here are almost 500 apps built on Bluemix from hackathons around the world]
 
 ## Further Reading
 https://hub.jazz.net/tutorials/jazzeditor/#git_integration_and_autodeployment - This is a very quick start-up to getting a node.js app up and running and how you can then connect it to git such that you can , as well as integrating with GIT and coding using the web editor and git to autodeploy
-
-
 https://console.eu-gb.bluemix.net/?/&direct=classic/#/resources/orgGuid=4c26d2f3-eca6-402f-b8fa-8fee5785263a&spaceGuid=6837eb01-3d09-4326-b836-831a2342f8c9&appGuid=a0057d01-556b-4cff-a5a0-b74623e3c2a3&detailType=gettingstarted&paneId=4
-
 http://www.ibm.com/cloud-computing/bluemix/getting-started/
-https://github.com/IBM-Bluemix/hackathon-prep-material
 https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
 https://console.ng.bluemix.net/docs
-
-Suggest the links go in Github. 	
 http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html 	
 https://developer.ibm.com/courses/all-courses/bluemix-essentials/ 	
 https://hub.jazz.net/tutorials/jazzeditor/ 	
 https://opensource.com/life/16/5/getting-started-node-red 
 http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app/ - get sample code
-boilerplates - https://new-console.ng.bluemix.net/docs/starters/IoT/iot500.html 	
-
-Sample applications.
-https://developer.ibm.com/apps/
-
+https://new-console.ng.bluemix.net/docs/starters/IoT/iot500.html - boilerplates 	
 
 ## License
 
