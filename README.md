@@ -34,15 +34,6 @@ Covered the basics and want to move on? Level up with this in-depth material.
 
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like github and maybe also automate and orchestrate testing, notifications and deployments. The toolchain feature is meant to do exactly that. [Click here to find out how to use it.][opentoolchain_docs]
 
-#### Joing the dots - making connections
-TBC
-
-#### Data Visualisation
-TBC
-
-#### Six Degrees of Seperation
-TBC
-
 #### Internet of Things (IoT)
 
 If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge.
@@ -86,9 +77,9 @@ And [here are almost 500 apps built on Bluemix from hackathons around the world]
 
 For additional start-up guides please see the following [here][additional_guide1] and  [here][additional_guide2].
 
-[Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s web code editor to autodeploy your application
+[Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
 
-[Other github references][git_hub]
+There are plenty of freely availble Bluemix resources stored in [github][git_hub].
 
 
 ## License
@@ -131,4 +122,5 @@ See [License](License) for license information.
 [additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
 [additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
 [git_hub]: https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
+[Web_IDE]: https://new-console.ng.bluemix.net/docs/toolchains/web_ide.html
 
