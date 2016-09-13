@@ -1,10 +1,10 @@
-# Getting ready for a Bluemix Hackathon?
+# Getting ready for a Bluemix Coding Competition
 
 Here is a list of material that we found particularly useful to get hackathon participants up and running quickly.
 
 ## Sign up for Bluemix
 
-Make sure to [sign up here for Bluemix][bluemix_signup_url] **before the hackathon**. It's free.
+Make sure to [sign up here for Bluemix][bluemix_signup_url]
 
 ## Learn the Basics
 
@@ -71,48 +71,10 @@ Still stuck? Head on over to stackoverflow.com and make sure to tag your questio
 
 Looking for some inspiring examples? [Here is a gallery of 20 well documented apps built on Bluemix.][watson_starter-kits] All of them with a cognitive capability and based on the Watson technology. Each has a link to the running app and also links to the source on github.
 
-And [here are almost 500 apps built on Bluemix from previous hackathons][devpost_url], many linking to the source code.
-
-## Impressions from previous hackathons
-
-Have a look at these videos to see what a hackathon feels like:
-
-####ABN Amro #HackITon
-
-<a href="http://www.youtube.com/watch?v=hvaezfmzMX8"><img src="http://img.youtube.com/vi/hvaezfmzMX8/0.jpg" width="600">
-
-####The Nordea Innovation Challenge
-
-<a href="http://www.youtube.com/watch?v=kfkInW_GWjE"><img src="http://img.youtube.com/vi/kfkInW_GWjE/0.jpg" width="600">
-
-####Westpac & IBM Payments Hackathon
-
-<a href="https://vimeo.com/142343186"><img src="http://i.imgur.com/z8i9lKr.jpg" width="600">
-
-####SwissRe Hackathon NYC
-
-<a href="http://www.youtube.com/watch?v=ssmNXScD8W4"><img src="http://img.youtube.com/vi/ssmNXScD8W4/0.jpg" width="600">
-
-####SwissRe Hackathon Bangalore
-
-<a href="http://www.youtube.com/watch?v=XcvxYHiahaE"><img src="http://img.youtube.com/vi/XcvxYHiahaE/0.jpg" width="600">
-
-####Desjardins Healthy Living Hackathon
-
-<a href="http://www.youtube.com/watch?v=-Z0hg7ynHBM"><img src="http://img.youtube.com/vi/-Z0hg7ynHBM/0.jpg" width="600">
-
-####ANZ Data Science Hackathon
-
-<a href="http://www.youtube.com/watch?v=TXxoZSoCTvQ"><img src="http://img.youtube.com/vi/TXxoZSoCTvQ/0.jpg" width="600">
-
-####Multiple Sclerosis Hackathon 2016
-
-<a href="http://www.youtube.com/watch?v=Ff8XYj-yo6o"><img src="http://img.youtube.com/vi/Ff8XYj-yo6o/0.jpg" width="600">
+And [here are almost 500 apps built on Bluemix from hackathons around the world][devpost_url], many linking to the source code.
 
 
-## Contribute
-Do you know of any other good material? Maybe something that helped you to get ready for a Bluemix hackathon? Feel free to send us a pull request!
-
+## Further Reading
 
 ## License
 
