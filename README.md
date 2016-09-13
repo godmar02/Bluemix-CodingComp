@@ -81,7 +81,11 @@ And [here are almost 500 apps built on Bluemix from hackathons around the world]
 
 ## Further Reading
 
+or other start-up guides please see the following [additional start up guide here][additional_guide1] [and here][additional_guide2].
+
 [Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s web code editor to autodeploy your application
+
+[Other github references][git_hub]
 
 
 ## License
@@ -121,3 +125,7 @@ See [License](License) for license information.
 
 [example_node_red_chat]: http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app
 [jazz_editor]: https://hub.jazz.net/tutorials/jazzeditor
+[additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
+[additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
+[git_hub]: https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
+
