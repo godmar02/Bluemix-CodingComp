@@ -84,7 +84,7 @@ And [here are almost 500 apps built on Bluemix from hackathons around the world]
 
 ## Further Reading
 
-or other start-up guides please see the following [additional start up guide here][additional_guide1] and  [here][additional_guide2].
+For other start-up guides please see the following [additional start up guide here][additional_guide1] and  [here][additional_guide2].
 
 [Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s web code editor to autodeploy your application
 
