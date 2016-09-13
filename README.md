@@ -42,7 +42,7 @@ If you're working with others as part of a team, you'll probably want to use a c
 
 If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge.
 
-Node-RED can be deployed on Bluemix [with a single click.][iotp_boilerplate]
+Node-RED can be deployed on Bluemix [with a single click.][iotp_boilerplate]. Here is a great example of how to build a real-time chat app with Node-RED in [5 minutes!][example_node_red_chat]
 
 Next, [learn more about our IoT platform service][IoTP_url]. Once you understand how it works, go to [this link here to find step-by-step instructions to connect your physical devices][recipes_url] (like a [Rasperry Pi][raspberry_url], an [Arduino][arduino_url] or [TI Sensor Tag][sensortag_url]).
 
@@ -59,9 +59,6 @@ Here is the link to all the Bluemix online classes from IBM: [developerWorks Cou
 
 To really dive deep, you might want to take "Cloud Application Developer Certification Preparation", which should take you two or three days: [Cloud Application Developer Certification Preparation][certification_url]
 
-#### Webinars
-
-We have an assortment of webinars available in various languages. [Have a look here.][webinars-url]
 
 ## Over 400 step-by-step tutorials
 
@@ -137,3 +134,5 @@ See [License](License) for license information.
 [stackoverflow_url]: https://stackoverflow.com/questions/tagged/bluemix
 
 [certification_url]: https://developer.ibm.com/courses/all-courses/cloud-app-developer-cert-prep/
+
+[example_node_red_chat]: http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app
