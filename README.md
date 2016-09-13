@@ -35,10 +35,13 @@ Covered the basics and want to move on? Level up with this in-depth material.
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like github and maybe also automate and orchestrate testing, notifications and deployments. The toolchain feature is meant to do exactly that. [Click here to find out how to use it.][opentoolchain_docs]
 
 #### Joing the dots - making connections
+TBC
 
 #### Data Visualisation
+TBC
 
 #### Six Degrees of Seperation
+TBC
 
 #### Internet of Things (IoT)
 
