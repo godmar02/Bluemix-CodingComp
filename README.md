@@ -75,6 +75,27 @@ And [here are almost 500 apps built on Bluemix from hackathons around the world]
 
 
 ## Further Reading
+https://hub.jazz.net/tutorials/jazzeditor/#git_integration_and_autodeployment - This is a very quick start-up to getting a node.js app up and running and how you can then connect it to git such that you can , as well as integrating with GIT and coding using the web editor and git to autodeploy
+
+
+https://console.eu-gb.bluemix.net/?/&direct=classic/#/resources/orgGuid=4c26d2f3-eca6-402f-b8fa-8fee5785263a&spaceGuid=6837eb01-3d09-4326-b836-831a2342f8c9&appGuid=a0057d01-556b-4cff-a5a0-b74623e3c2a3&detailType=gettingstarted&paneId=4
+
+http://www.ibm.com/cloud-computing/bluemix/getting-started/
+https://github.com/IBM-Bluemix/hackathon-prep-material
+https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
+https://console.ng.bluemix.net/docs
+
+Suggest the links go in Github. 	
+http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html 	
+https://developer.ibm.com/courses/all-courses/bluemix-essentials/ 	
+https://hub.jazz.net/tutorials/jazzeditor/ 	
+https://opensource.com/life/16/5/getting-started-node-red 
+http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app/ - get sample code
+boilerplates - https://new-console.ng.bluemix.net/docs/starters/IoT/iot500.html 	
+
+Sample applications.
+https://developer.ibm.com/apps/
+
 
 ## License
 
