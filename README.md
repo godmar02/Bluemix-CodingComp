@@ -30,7 +30,9 @@ For additional start-up guides please see the following [here][additional_guide1
 
 ## More in depth material
 
-Covered the basics and want to move on? Level up with this in-depth material.
+#### Integration with GIT and using Bluemix’s WEB IDE code editor to autodeploy an application
+
+Here is a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
 
 #### Collaborative coding and CI/CD pipeline
 
@@ -75,8 +77,6 @@ Make sure to [search the Bluemix docs][bluemixdocs_url] first.
 Still stuck? Head on over to stackoverflow.com and make sure to tag your question with "bluemix". [Here is a direct link.][stackoverflow_url]
 
 ## Further Reading
-
-[Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
 
 There are plenty of freely available Bluemix resources stored in [github][git_hub].
 
