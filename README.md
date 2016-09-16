@@ -30,13 +30,11 @@ For additional start-up guides please see the following [here][additional_guide1
 
 ## More in depth material
 
-#### Integration with GIT and using Bluemix’s WEB IDE code editor to autodeploy an application
-
-Here is a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
-
 #### Collaborative coding and CI/CD pipeline
 
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like github and maybe also automate and orchestrate testing, notifications and deployments. The toolchain feature is meant to do exactly that. [Click here to find out how to use it.][opentoolchain_docs]
+
+In addition here is a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
 
 #### Internet of Things (IoT)
 
