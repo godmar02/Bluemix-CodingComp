@@ -12,7 +12,7 @@ Make sure to [sign up here for Bluemix][bluemix_signup_url]
 
 ### Welcome to Bluemix
 
-Start with these **introductory videos:**
+Please start by watching these **introductory videos:**
 
 <a href="https://www.youtube.com/watch?v=Hcu664HbfS4"><img src="http://img.youtube.com/vi/Hcu664HbfS4/0.jpg" width="600">
 
