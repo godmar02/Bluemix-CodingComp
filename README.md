@@ -1,6 +1,6 @@
-# Getting ready for a Bluemix Coding Competition
+# Getting ready for the Bluemix Coding Competition
 
-Here is a list of material that we found particularly useful to get participants up and running quickly.
+Below we have collated a list of material that we hope participants will find useful to get up and running quickly.
 
 ## Sign up for Bluemix
 
@@ -81,10 +81,6 @@ For additional start-up guides please see the following [here][additional_guide1
 
 There are plenty of freely availble Bluemix resources stored in [github][git_hub].
 
-
-## License
-
-See [License](License) for license information.
 
 <!--Links-->
 [bluemix_signup_url]: https://console.ng.bluemix.net/registration
