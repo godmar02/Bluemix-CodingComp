@@ -8,7 +8,7 @@ Make sure to [sign up here for Bluemix][bluemix_signup_url]
 
 ## Learn the Basics
 
-### Get an overview
+### Welcome to Bluemix
 
 Start with these **introductory videos:**
 
@@ -18,15 +18,15 @@ Start with these **introductory videos:**
 
 ### Learn how to deploy an app based on Cloud Foundry
 
-[Cloud Foundry][cloud_foundry] is an open-source platform-as-a-Service (PaaS) that allows you to concentrate on your code without worrying about the underlying infrastructure (like VMs or containers). That allows you to get your apps up and running quickly ... an ideal environment for a coding competition.
+[Cloud Foundry][cloud_foundry] is the open-source platform-as-a-Service (PaaS) that Bluemix is built upon. This platform allows you to concentrate on your code without worrying about the underlying infrastructure (like setting up virtual machines (VMs) or containers). That allows you to get your apps up and running quickly... which makes it an ideal environment for a coding competition.
 
-Here's a a link to get you started: [Creating Cloud Foundry apps][cf_basics]
+Here's a link to get you started: [Creating Cloud Foundry apps][cf_basics]
 
 If you prefer a more structured course, here is a link to a 4-hour online class to get you started with Bluemix: [Bluemix Essentials][bluemix-essentials]
 
-There are also many other resources
+For additional start-up guides please see the following [here][additional_guide1] and  [here][additional_guide2].
 
-## Drill down
+## More in depth material
 
 Covered the basics and want to move on? Level up with this in-depth material.
 
@@ -56,15 +56,9 @@ Here is the link to all the Bluemix online classes from IBM: [developerWorks Cou
 To really dive deep, you might want to take "Cloud Application Developer Certification Preparation", which should take you two or three days: [Cloud Application Developer Certification Preparation][certification_url]
 
 
-## Over 400 step-by-step tutorials
+## Step-by-step tutorials
 
 And if you're looking for more, [here is a link to over 400 detailed step-by-step coding tutorials][bluemix_tutorials-url] for Bluemix.
-
-## Stuck? Need help?
-
-Make sure to [search the Bluemix docs][bluemixdocs_url] first.
-
-Still stuck? Head on over to stackoverflow.com and make sure to tag your question with "bluemix". [Here is a direct link.][stackoverflow_url]
 
 ## Inspiring examples
 
@@ -72,14 +66,17 @@ Looking for some inspiring examples? [Here is a gallery of 20 well documented ap
 
 And [here are almost 500 apps built on Bluemix from hackathons around the world][devpost_url], many linking to the source code.
 
+## Support Documentation
+
+Make sure to [search the Bluemix docs][bluemixdocs_url] first.
+
+Still stuck? Head on over to stackoverflow.com and make sure to tag your question with "bluemix". [Here is a direct link.][stackoverflow_url]
 
 ## Further Reading
 
-For additional start-up guides please see the following [here][additional_guide1] and  [here][additional_guide2].
-
 [Here is][jazz_editor] a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
 
-There are plenty of freely availble Bluemix resources stored in [github][git_hub].
+There are plenty of freely available Bluemix resources stored in [github][git_hub].
 
 
 <!--Links-->
