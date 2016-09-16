@@ -1,4 +1,6 @@
-# Getting ready for the Bluemix Coding Competition
+![alt tag](http://www.dbtekpro.com/wp-content/uploads/2015/07/bluemix-logo.png)
+
+# Getting ready to use Bluemix in the Coding Competition
 
 Below we have collated a list of material that we hope participants will find useful to get up and running quickly.
 
