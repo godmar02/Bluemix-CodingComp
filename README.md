@@ -33,9 +33,9 @@ To download your starter code:
 - Save your code
 
 To use the Cloud Foundry CLI start by downloading it from [here][CLI_Download]. This enables your computer to push changes to your code that you have made on your computer to Bluemix via the command line. Once this is installed you can navigate to your code directory using the Command Line in Windows or Terminal in a Mac (cd <code_directory>) then issue the following commands:
-	cf login -a https://api.eu-gb.bluemix.net 
-	Enter your bluemix email and password
-    cf push
+- cf login -a https://api.eu-gb.bluemix.net 
+- Enter your bluemix email and password
+- cf push
 This will push a new version of your code up to Bluemix and restart your application for you!
 
 ## More in depth material
