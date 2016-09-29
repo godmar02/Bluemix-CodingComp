@@ -50,9 +50,9 @@ Once you have these set up you will be able to create what is called a repositor
 #### Code Editing Tools
 
 If you are working on your code locally i.e. on your laptop or computer, then we would suggest using one of the following tools that are designed for coding:
-[Sublime][sublime]
-[Notepad++][notepad]
-[Atom][atom]
+- [Sublime][sublime]
+- [Notepad++][notepad]
+- [Atom][atom]
 
 #### Internet of Things (IoT)
 
@@ -65,9 +65,9 @@ Node-RED can be deployed on Bluemix and connected to an IoT device [with just a 
 There are a number of data visualisation tools within Bluemix. Additionally, [this website][sitepoint] lists the 12 Best JavaScript libraries for Data Visualisation. 
 
 There are a number of freely available datasets that you may wish to use for data visualisation:
-[Analytics Exchange][analytics_exchange]
-[UK Government Open Data][data_gov]
-[Namara open data sets][namara]
+- [Analytics Exchange][analytics_exchange]
+- [UK Government Open Data][data_gov]
+- [Namara open data sets][namara]
 
 #### Using Watson cognitive services
 
