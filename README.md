@@ -56,7 +56,7 @@ For further details on these methods, and more, visit the 'Start Coding' page wh
 
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to install GIT on your computer, which you can [download here][git]. This allows multiple users to 'clone' online Repositories (effectively just a code store) to their computers and work on seperately before pushing updates back into the central Repository.
 
-If you are using the advanced method of code deployment above then you will already have a GIT Repository stored on the web, which users can collaborate on, click on the Repository URL and you can add members. If you have opted to use Cloud Foundry CLI to deploy your code then you can create a standalone Repository on GitHub. You can signup for a free a GitHub account [here][github] and get started creating Repositories (you can push your starter code up into a new Repository).  
+If you are using the advanced method of code deployment above then you will already have a GIT Repository stored on the web, which users can collaborate on, click on the Repository URL and you can add members. If you have opted to use Cloud Foundry CLI to deploy your code then you can create a standalone Repository on GitHub. You can signup for a free a GitHub account [here][GitHub] and get started creating Repositories (you can push your starter code up into a new Repository).  
 
 For a quick tutorial on GIT a great place to start is [here][learn_git].
 
@@ -103,7 +103,7 @@ And if you're looking for more, [here is a link to over 400 detailed step-by-ste
 
 ## Inspiring examples
 
-Looking for some inspiring examples? [Here is a gallery of 20 well documented apps built on Bluemix.][watson_starter-kits] All of them with a cognitive capability and based on the Watson technology. Each has a link to the running app and also links to the source on github.
+Looking for some inspiring examples? [Here is a gallery of 20 well documented apps built on Bluemix.][watson_starter-kits] All of them with a cognitive capability and based on the Watson technology. Each has a link to the running app and also links to the source on GitHub.
 
 And [here are almost 500 apps built on Bluemix from hackathons around the world][devpost_url], many linking to the source code.
 
@@ -115,7 +115,7 @@ Still stuck? Head on over to stackoverflow.com and make sure to tag your questio
 
 ## Further Reading
 
-There are plenty of freely available Bluemix resources stored in [github][git_hub].
+There are plenty of freely available Bluemix resources stored in [GitHub][git_hub].
 
 
 <!--Links-->
@@ -127,16 +127,16 @@ There are plenty of freely available Bluemix resources stored in [github][git_hu
 [bluemix-essentials]: https://developer.ibm.com/courses/all-courses/bluemix-essentials
 [additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
 [additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
-[CLI_Download]: https://github.com/cloudfoundry/cli
+[CLI_Download]: https://GitHub.com/cloudfoundry/cli
 
 [developer_courses]: https://developer.ibm.com/courses/#courses
 [watson_starter-kits]: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/starter-kits.html
 
 
-[github]: https://github.com
-[git_hub]: https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
+[GitHub]: https://GitHub.com
+[git_hub]: https://GitHub.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
 [git]: https://git-scm.com/downloads 
-[learn_git]: https://try.github.io/levels/1/challenges/1 
+[learn_git]: https://try.GitHub.io/levels/1/challenges/1 
 
 [atom]: https://atom.io/
 [sublime]: https://www.sublimetext.com/
@@ -154,7 +154,7 @@ There are plenty of freely available Bluemix resources stored in [github][git_hu
 [iot_pibluemix]: https://developer.ibm.com/recipes/tutorials/build-an-iot-bluemix-app-in-node-js-with-sensors-on-raspberry-pi/
 [raspberry_url]: https://developer.ibm.com/recipes/?post_type=tutorials&s=raspberry
 [arduino_url]: https://developer.ibm.com/recipes/?post_type=tutorials&s=arduino
-[sensortag_url]: https://github.com/uwefassnacht/ti-sensor-tag-demo
+[sensortag_url]: https://GitHub.com/uwefassnacht/ti-sensor-tag-demo
 
 [sitepoint]: https://www.sitepoint.com/twelve-javascript-libraries-data-visualization/ 
 [analytics_exchange]: https://console.ng.bluemix.net/data/exchange/ 
