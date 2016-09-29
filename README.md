@@ -34,7 +34,7 @@ For Beginners we would suggest that you choose to download code locally and then
 - Ensure you have the Cloud Foundry CLI installed on your machine (download it from [here][CLI_Download]). This enables your computer to push changes to your code that you have made on your computer to Bluemix via the command line. 
 - Navigate to your code directory using the Command Line in Windows or Terminal in a Mac (cd code_directory)
 - Run the following command: cf login -a https://api.eu-gb.bluemix.net -u your_login_email_address
-- Enter your bluemix password
+- Enter your Bluemix password
 - Run the following command: cf push
 - This will push a new version of your code up to Bluemix and restart your application for you! Check your app URL to see those changes.
 
@@ -48,7 +48,7 @@ A slightly more advance method involves connecting Bluemix to a GIT repository. 
 - Make changes to the code however you want
 - Git add, commit and push - the source code repo has a continuous delivery pipeline that will automatically pick up committed changes and build those into your app. Check your app URL to see those changes.
 
-For further details on these methods and more visit the 'Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. 
+For further details on these methods, and more, visit the 'Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. 
 
 ## More in depth material
 
