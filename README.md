@@ -45,14 +45,14 @@ This will push a new version of your code up to Bluemix and restart your applica
 
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to signup for a free a GitHub account [here][github] and to install GIT on your computer, which you can [download here][git]. 
 
-Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
+Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository if they are set up as collaborators. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
 
 #### Code Editing Tools
 
 If you are working on your code locally i.e. on your laptop or computer, then we would suggest using one of the following tools that are designed for coding:
-[Sublime][sublime]
-[Notepad++][notepad]
-[Atom][atom]
+- [Sublime][sublime]
+- [Notepad++][notepad]
+- [Atom][atom]
 
 #### Internet of Things (IoT)
 
@@ -65,9 +65,9 @@ Node-RED can be deployed on Bluemix and connected to an IoT device [with just a 
 There are a number of data visualisation tools within Bluemix. Additionally, [this website][sitepoint] lists the 12 Best JavaScript libraries for Data Visualisation. 
 
 There are a number of freely available datasets that you may wish to use for data visualisation:
-[Analytics Exchange][analytics_exchange]
-[UK Government Open Data][data_gov]
-[Namara open data sets][namara]
+- [Analytics Exchange][analytics_exchange]
+- [UK Government Open Data][data_gov]
+- [Namara open data sets][namara]
 
 #### Using Watson cognitive services
 
