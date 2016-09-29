@@ -38,7 +38,7 @@ For Beginners we would suggest that you choose to download code locally and then
 - Run the following command: cf push
 - This will push a new version of your code up to Bluemix and restart your application for you! Check your app URL to see those changes.
 
-A slightly more advance method involves connecting Bluemix to a GIT repository. To do this:
+A slightly more advance method involves connecting Bluemix to a GIT repository. The advantage of this method is that you then have your code in a repository that you can collaborate on and deliver changes to rapidly without having to install the Code Foundry CLI or set up a GIT repository within GitHub as below in the collaborative coding section. To do this:
 - Click on your app in the Dashboard
 - Then click on Overview in the left hand pane
 - Click on ADD GIT in top right hand corner of the page
