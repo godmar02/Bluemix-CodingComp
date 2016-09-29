@@ -20,9 +20,9 @@ Please start by watching these **introductory videos:**
 
 ### Learn how to deploy an app based on Cloud Foundry
 
-[Cloud Foundry][cloud_foundry] is the open-source platform-as-a-Service (PaaS) that Bluemix is built upon. This platform allows you to concentrate on your code without worrying about the underlying infrastructure (like setting up virtual machines (VMs) or containers). That allows you to get your apps up and running quickly... which makes it an ideal environment for a coding competition. You can start adding cloud foundry apps directly from your Dashboard within bluemix and it allows you to select numerous templates depending upond what language you want to code in etc.
+[Cloud Foundry][cloud_foundry] is the open-source platform-as-a-Service (PaaS) that Bluemix is built upon. This platform allows you to concentrate on your code without worrying about the underlying infrastructure (like setting up virtual machines (VMs) or containers). That allows you to get your apps up and running quickly... which makes it an ideal environment for a coding competition. You can start adding cloud foundry apps directly from your Dashboard within bluemix and it allows you to select numerous templates depending upon what language you want to code in etc.
 
-For a structure course on getting started here is a link to a 4-hour online class: [Bluemix Essentials][bluemix-essentials]. For additional start-up guides please see the following [here][additional_guide1] and [here][additional_guide2].
+For a structured course on getting started here is a link to a 4-hour online class: [Bluemix Essentials][bluemix-essentials]. For additional start-up guides please see the following [here][additional_guide1] and [here][additional_guide2].
 
 Once you have created a new app in Bluemix there are a number of ways you can edit and work on it. A few of these are detailed within the Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. We would suggest that you choose to download code locally and then use the Cloud Foundry CLI in order to deploy changes to your applications on Bluemix. 
 
