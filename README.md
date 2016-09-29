@@ -24,28 +24,41 @@ Please start by watching these **introductory videos:**
 
 For a structured course on getting started here is a link to a 4-hour online class: [Bluemix Essentials][bluemix-essentials]. For additional start-up guides please see the following [here][additional_guide1] and [here][additional_guide2].
 
-Once you have created a new app in Bluemix there are a number of ways you can edit and work on it. A few of these are detailed within the Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. We would suggest that you choose to download code locally and then use the Cloud Foundry CLI in order to deploy changes to your applications on Bluemix. 
+Once you have created a new app in Bluemix there are a number of ways you can work on it. 
 
-To download your starter code:
-- Click on your app in the Dashboard
+For Beginners we would suggest that you choose to download code locally and then use the Cloud Foundry CLI in order to deploy changes to your applications on Bluemix. To do this:
+- Click on your App in the Dashboard
 - Then click on Start Coding on the left hand pane
-- Find and click on DOWNLOAD STARTER CODE
-- Save your code
-
-To use the Cloud Foundry CLI start by downloading it from [here][CLI_Download]. This enables your computer to push changes to your code that you have made on your computer to Bluemix via the command line. Once this is installed you can navigate to your code directory using the Command Line in Windows or Terminal in a Mac (cd code_directory) then issue the following commands:
-- cf login -a https://api.eu-gb.bluemix.net -u your_login_email_address
+- Find and click on DOWNLOAD STARTER CODE to save it on your machine.
+- Make changes to the code however you want
+- Ensure you have the Cloud Foundry CLI installed on your machine (download it from [here][CLI_Download]). This enables your computer to push changes to your code that you have made on your computer to Bluemix via the command line. 
+- Navigate to your code directory using the Command Line in Windows or Terminal in a Mac (cd code_directory)
+- Run the following command: cf login -a https://api.eu-gb.bluemix.net -u your_login_email_address
 - Enter your bluemix password
-- cf push
+- Run the following command: cf push
+- This will push a new version of your code up to Bluemix and restart your application for you! Check your app URL to see those changes.
 
-This will push a new version of your code up to Bluemix and restart your application for you!
+A slightly more advance method involves connecting Bluemix to a GIT repository. To do this:
+- Click on your app in the Dashboard
+- Then click on Overview in the left hand pane
+- Click on ADD GIT in top right hand corner of the page
+- On the resulting popup ensure 'Populate the repo with the starter app package and enable the Build & Deploy pipeline' is ticked (this will allow for any changes to the GIT Repo to be picked up automatically).
+- Bluemix will now create a GIT Repository containing the Starter Code as mentioned above. The resulting location will be a URL on the App Overview Page where ADD GIT was.
+- Copy the Git URL and clone it to your local machine using 'git clone' - you will need Git installed on your machine if you're using Windows (see below for usage of GIT)
+- Make changes to the code however you want
+- Git add, commit and push - the source code repo has a continuous delivery pipeline that will automatically pick up committed changes and build those into your app. Check your app URL to see those changes.
+
+For further details on these methods and more visit the 'Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. 
 
 ## More in depth material
 
 #### Collaborative coding and source control
 
-If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to signup for a free a GitHub account [here][github] and to install GIT on your computer, which you can [download here][git]. 
+If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to install GIT on your computer, which you can [download here][git]. This allows multiple users to 'clone' online Repositories (effectively just a code store) to their computers and work on seperately before pushing updates back into the central Repository.
 
-Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository if they are set up as collaborators. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
+If you are using the advanced method of code deployment above then you will already have a GIT Repository stored on the web, which users can collaborate on, click on the Repository URL and you can add members. If you have opted to use Cloud Foundry CLI to deploy your code then you can create a standalone Repository on GitHub. You can signup for a free a GitHub account [here][github] and get started creating Repositories (you can push your starter code up into a new Repository).  
+
+For a quick tutorial on GIT a great place to start is [here][learn_git].
 
 #### Code Editing Tools
 
