@@ -45,7 +45,7 @@ This will push a new version of your code up to Bluemix and restart your applica
 
 If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to signup for a free a GitHub account [here][github] and to install GIT on your computer, which you can [download here][git]. 
 
-Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
+Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository if they are set up as collaborators. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
 
 #### Code Editing Tools
 
