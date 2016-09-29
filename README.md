@@ -38,15 +38,15 @@ For Beginners we would suggest that you choose to download code locally and then
 - Run the following command: cf push
 - This will push a new version of your code up to Bluemix and restart your application for you! Check your app URL to see those changes.
 
-A slightly more advance method involves connecting Bluemix to a GIT repository. The advantage of this method is that you then have your code in a repository that you can collaborate on and deliver changes to rapidly without having to install the Code Foundry CLI or set up a GIT repository within GitHub as below in the collaborative coding section. To do this:
+A slightly more advance method involves connecting Bluemix to a GIT repository. The advantage of this method is that you then have your code in a repository that you can collaborate on and deliver changes rapidly without having to install the Code Foundry CLI or set up a GIT repository within GitHub as below in the collaborative coding section. To do this:
 - Click on your app in the Dashboard
 - Then click on Overview in the left hand pane
 - Click on ADD GIT in top right hand corner of the page
 - On the resulting popup ensure 'Populate the repo with the starter app package and enable the Build & Deploy pipeline' is ticked (this will allow for any changes to the GIT Repo to be picked up automatically).
 - Bluemix will now create a GIT Repository containing the Starter Code as mentioned above. The resulting location will be a URL on the App Overview Page where ADD GIT was.
-- Copy the Git URL and clone it to your local machine using 'git clone' - you will need Git installed on your machine if you're using Windows (see below for usage of GIT)
+- Copy the GIT URL and clone it to your local machine using 'git clone' - you will need GIT installed on your machine if you're using Windows (see below for usage of GIT)
 - Make changes to the code however you want
-- Git add, commit and push - the source code repo has a continuous delivery pipeline that will automatically pick up committed changes and build those into your app. Check your app URL to see those changes.
+- GIT add, commit and push - the source code repo has a continuous delivery pipeline that will automatically pick up committed changes and build those into your app. Check your app URL to see those changes.
 
 For further details on these methods, and more, visit the 'Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. 
 
@@ -71,7 +71,7 @@ If you are working on your code locally i.e. on your laptop or computer, then we
 
 If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge. For example here is how to build a real-time chat app with Node-RED in [5 minutes!][example_node_red_chat]
 
-Node-RED can be deployed on Bluemix and connected to an IoT device [with just a few clicks.][iot_connection]. To learn more about our IoT platform service[visit here][IoTP_url]. Once you understand a bit more about how it works, go to [this link here to find step-by-step instructions to connect your physical devices][recipes_url], like a guide to build an IOT Bluemix app in node.js with sensors on a [Raspberry Pi][iot_pibluemix] (and many more for the [Raspberry Pi][raspberry_url], [Arduino][arduino_url] or [TI Sensor Tag][sensortag_url]).
+Node-RED can be deployed on Bluemix and connected to an IoT device [with just a few clicks.][iot_connection]. To learn more about our IoT platform service [visit here][IoTP_url]. Once you understand a bit more about how it works, go to [this link here to find step-by-step instructions to connect your physical devices][recipes_url], like a guide to build an IOT Bluemix app in node.js with sensors on a [Raspberry Pi][iot_pibluemix] (and many more for the [Raspberry Pi][raspberry_url], [Arduino][arduino_url] or [TI Sensor Tag][sensortag_url]).
 
 #### Data Visualisation
 
