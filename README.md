@@ -36,6 +36,7 @@ To use the Cloud Foundry CLI start by downloading it from [here][CLI_Download]. 
 - cf login -a https://api.eu-gb.bluemix.net 
 - Enter your bluemix email and password
 - cf push
+
 This will push a new version of your code up to Bluemix and restart your application for you!
 
 ## More in depth material
