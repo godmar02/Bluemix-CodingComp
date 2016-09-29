@@ -20,29 +20,53 @@ Please start by watching these **introductory videos:**
 
 ### Learn how to deploy an app based on Cloud Foundry
 
-[Cloud Foundry][cloud_foundry] is the open-source platform-as-a-Service (PaaS) that Bluemix is built upon. This platform allows you to concentrate on your code without worrying about the underlying infrastructure (like setting up virtual machines (VMs) or containers). That allows you to get your apps up and running quickly... which makes it an ideal environment for a coding competition.
+[Cloud Foundry][cloud_foundry] is the open-source platform-as-a-Service (PaaS) that Bluemix is built upon. This platform allows you to concentrate on your code without worrying about the underlying infrastructure (like setting up virtual machines (VMs) or containers). That allows you to get your apps up and running quickly... which makes it an ideal environment for a coding competition. You can start adding cloud foundry apps directly from your Dashboard within bluemix and it allows you to select numerous templates depending upond what language you want to code in etc.
 
-Here's a link to get you started: [Creating Cloud Foundry apps][cf_basics]
+For a structure course on getting started here is a link to a 4-hour online class: [Bluemix Essentials][bluemix-essentials]. For additional start-up guides please see the following [here][additional_guide1] and [here][additional_guide2].
 
-If you prefer a more structured course, here is a link to a 4-hour online class to get you started with Bluemix: [Bluemix Essentials][bluemix-essentials]
+Once you have created a new app in Bluemix there are a number of ways you can edit and work on it. A few of these are detailed within the Start Coding' page which you can access in the left hand pane once you have clicked on your app within the Dashboard. We would suggest that you choose to download code locally and then use the Cloud Foundry CLI in order to deploy changes to your applications on Bluemix. 
 
-For additional start-up guides please see the following [here][additional_guide1] and  [here][additional_guide2].
+To download your starter code:
+- Click on your app in the Dashboard
+- Then click on Start Coding on the left hand pane
+- Find and click on DOWNLOAD STARTER CODE
+- Save your code
+
+To use the Cloud Foundry CLI start by downloading it from [here][CLI_Download]. This enables your computer to push changes to your code that you have made on your computer to Bluemix via the command line. Once this is installed you can navigate to your code directory using the Command Line in Windows or Terminal in a Mac (cd <code_directory>) then issue the following commands:
+	cf login -a https://api.eu-gb.bluemix.net 
+	Enter your bluemix email and password
+    cf push
+This will push a new version of your code up to Bluemix and restart your application for you!
 
 ## More in depth material
 
-#### Collaborative coding and CI/CD pipeline
+#### Collaborative coding and source control
 
-If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like github and maybe also automate and orchestrate testing, notifications and deployments. The toolchain feature is meant to do exactly that. [Click here to find out how to use it.][opentoolchain_docs]
+If you're working with others as part of a team, you'll probably want to use a collaborative coding tool like GIT to keep track of your code and work together. In order to do this you will need to signup for a free a GitHub account [here][github] and to install GIT on your computer, which you can [download here][git]. 
 
-In addition here is a very quick start-up to getting a node.js app up and running but more importantly it shows you how you can integrate with GIT and use Bluemix’s WEB IDE code editor to autodeploy your application
+Once you have these set up you will be able to create what is called a repository on GitHub that multiple people can 'clone' to their computers and work on seperately before pushing updates back into the repository. For a quick tutorial on how to do all of this a great place to start is [here][learn_git].
+
+#### Code Editing Tools
+
+If you are working on your code locally i.e. on your laptop or computer, then we would suggest using one of the following tools that are designed for coding:
+[Sublime][sublime]
+[Notepad++][notepad]
+[Atom][atom]
 
 #### Internet of Things (IoT)
 
-If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge.
+If you want to work to an IoT theme, you'll want to learn [Node-RED][nodered_url]. It's an open-source "visual tool for wiring the Internet of Things" and a great way to quickly become productive in a very short period of time. It also requires very little coding knowledge. For example here is how to build a real-time chat app with Node-RED in [5 minutes!][example_node_red_chat]
 
-Node-RED can be deployed on Bluemix [with a single click.][iotp_boilerplate]. Here is a great example of how to build a real-time chat app with Node-RED in [5 minutes!][example_node_red_chat]
+Node-RED can be deployed on Bluemix and connected to an IoT device [with just a few clicks.][iot_connection]. To learn more about our IoT platform service[visit here][IoTP_url]. Once you understand a bit more about how it works, go to [this link here to find step-by-step instructions to connect your physical devices][recipes_url], like a guide to build an IOT Bluemix app in node.js with sensors on a [Raspberry Pi][iot_pibluemix] (and many more for the [Raspberry Pi][raspberry_url], [Arduino][arduino_url] or [TI Sensor Tag][sensortag_url]).
 
-Next, [learn more about our IoT platform service][IoTP_url]. Once you understand how it works, go to [this link here to find step-by-step instructions to connect your physical devices][recipes_url] (like a [Rasperry Pi][raspberry_url], an [Arduino][arduino_url] or [TI Sensor Tag][sensortag_url]).
+#### Data Visualisation
+
+There are a number of data visualisation tools within Bluemix. Additionally, [this website][sitepoint] lists the 12 Best JavaScript libraries for Data Visualisation. 
+
+There are a number of freely available datasets that you may wish to use for data visualisation:
+[Analytics Exchange][analytics_exchange]
+[UK Government Open Data][data_gov]
+[Namara open data sets][namara]
 
 #### Using Watson cognitive services
 
@@ -57,6 +81,7 @@ Here is the link to all the Bluemix online classes from IBM: [developerWorks Cou
 
 To really dive deep, you might want to take "Cloud Application Developer Certification Preparation", which should take you two or three days: [Cloud Application Developer Certification Preparation][certification_url]
 
+For additional learning on the basic of Node.js (javascript) visit [Nodeschool][nodeschool] and for numerous other coding tutorials and lessons [Codecademy][codecademy].
 
 ## Step-by-step tutorials
 
@@ -80,40 +105,56 @@ There are plenty of freely available Bluemix resources stored in [github][git_hu
 
 
 <!--Links-->
+
 [bluemix_signup_url]: https://console.ng.bluemix.net/registration
+
 [cloud_foundry]: https://www.cloudfoundry.org/
 [cf_basics]: https://new-console.ng.bluemix.net/docs/cfapps/index.html
 [bluemix-essentials]: https://developer.ibm.com/courses/all-courses/bluemix-essentials
-[opentoolchain_docs]:https://new-console.ng.bluemix.net/docs/toolchains/toolchains_overview.html
-[developer_courses]: https://developer.ibm.com/courses/#courses
+[additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
+[additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
+[CLI_Download]: https://github.com/cloudfoundry/cli
 
-[watson_starter-kits]:https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/starter-kits.html
+[developer_courses]: https://developer.ibm.com/courses/#courses
+[watson_starter-kits]: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/starter-kits.html
+
+
+[github]: https://github.com
+[git_hub]: https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
+[git]: https://git-scm.com/downloads 
+[learn_git]: https://try.github.io/levels/1/challenges/1 
+
+[atom]: https://atom.io/
+[sublime]: https://www.sublimetext.com/
+[notepad]: https://notepad-plus-plus.org/
+
+[nodeschool]: http://nodeschool.io/
+[codecademy]: https://www.codecademy.com/ 
 
 [nodered_url]: http://nodered.org/
+[example_node_red_chat]: http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app
+[iot_connection]: https://developer.ibm.com/recipes/tutorials/creating-a-nodered-application-on-bluemix/
 [iotp_boilerplate]: https://new-console.ng.bluemix.net/docs/starters/IoT/iot500.html#iot500
 [IoTP_url]: https://new-console.ng.bluemix.net/docs/services/IoT/index.html
 [recipes_url]: https://developer.ibm.com/recipes/
+[iot_pibluemix]: https://developer.ibm.com/recipes/tutorials/build-an-iot-bluemix-app-in-node-js-with-sensors-on-raspberry-pi/
 [raspberry_url]: https://developer.ibm.com/recipes/?post_type=tutorials&s=raspberry
 [arduino_url]: https://developer.ibm.com/recipes/?post_type=tutorials&s=arduino
 [sensortag_url]: https://github.com/uwefassnacht/ti-sensor-tag-demo
 
+[sitepoint]: https://www.sitepoint.com/twelve-javascript-libraries-data-visualization/ 
+[analytics_exchange]: https://console.ng.bluemix.net/data/exchange/ 
+[data_gov]: https://data.gov.uk/ 
+[namara]: https://namara.io/#/ 
+
 [watson_nodejs]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/getting_started/gs-full-nodejs.shtml
 [watson_java]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/getting_started/gs-full-java.shtml
-
 [bluemix_tutorials-url]: https://ibm.biz/bluemixtutorialsfordevs
 [webinars-url]: https://webinars.mybluemix.net
-
 [devpost_url]: http://devpost.com/software/built-with/bluemix
-
 [bluemixdocs_url]: https://console.ng.bluemix.net/docs
 [stackoverflow_url]: https://stackoverflow.com/questions/tagged/bluemix
-
 [certification_url]: https://developer.ibm.com/courses/all-courses/cloud-app-developer-cert-prep/
-
-[example_node_red_chat]: http://www.ibm.com/developerworks/cloud/library/cl-rtchat-app
 [jazz_editor]: https://hub.jazz.net/tutorials/jazzeditor
-[additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
-[additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
-[git_hub]: https://github.com/ibm-bluemix?cm_mc_uid=55107028533214736821719&cm_mc_sid_50200000=1473779643
 [Web_IDE]: https://new-console.ng.bluemix.net/docs/toolchains/web_ide.html
 
