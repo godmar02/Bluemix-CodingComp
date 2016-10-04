@@ -6,7 +6,7 @@ Below we have collated a list of material that we hope participants will find us
 
 ## Sign up for Bluemix
 
-Make sure to [sign up here for the Bluemix 30 day free trial][bluemix_signup_url]. Once you have done this we will request team names and email addresses, we will then upgrade these accounts to fully managed and supported ones.
+Make sure to [sign up here for the Bluemix 30 day free trial][bluemix_signup_url]. Once you have done this we will request team names and email addresses, we will then upgrade these accounts to fully managed and supported ones. Please note that this will need to be a new account if you have previously signed up.
 
 ## Learn the Basics
 
