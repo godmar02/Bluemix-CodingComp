@@ -4,7 +4,7 @@
 
 Below we have collated a list of material that we hope participants will find useful to get up and running quickly.
 
-## Sign up for Bluemix and Migrating to a managed organisation
+## Sign up for Bluemix and migrating to the Coding Competition organisation
 
 Make sure to [sign up here for the Bluemix 30 day free trial][bluemix_signup_url]. Once you have done this we will request team names and email addresses, we will then upgrade these accounts to fully managed and supported ones. Please note that this will need to be a new account if you have previously signed up.
 
