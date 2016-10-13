@@ -4,9 +4,16 @@
 
 Below we have collated a list of material that we hope participants will find useful to get up and running quickly.
 
-## Sign up for Bluemix
+## Sign up for Bluemix and Migrating to a managed organisation
 
 Make sure to [sign up here for the Bluemix 30 day free trial][bluemix_signup_url]. Once you have done this we will request team names and email addresses, we will then upgrade these accounts to fully managed and supported ones. Please note that this will need to be a new account if you have previously signed up.
+
+Once we have let you know that we have added you to our Organisation you will be able to see "Coding Competition 2016" listed as an Organisation when you click on the top right hand icon in Bluemix. Within that organisation we will have created a 'Space' named after your team where you will work going forward.
+
+In order to keep coding you will need to re-provision any services or applications that you set up in your 'trial space' into your new space and then push your code into this new space. Referencing the section below (Learn how to deploy an app based on Cloud Foundry) see the following steps for moving code over:
+- If you have been working on code using the Cloud Foundary CLI you will find that when you login using "cf login -a https://api.eu-gb.bluemix.net -u your_login_email_address" it will now ask you to select an organisation and a space to work in before you then can then push your code to Bluemix. In order to skip this step at subsequent logins you can amend your login command to be "cf login -a https://api.eu-gb.bluemix.net -u your_login_email_address -o CodingCompetition2016 -s "your_team_space" "
+- If you have been connecting you Bluemix app to a GIT repository then simply re-connect your app in the new space to the same repository ou have been working off (using the GIT URL as you were using before) as per the instructions below.
+If you have been using NodeRed then please following the instructions on this site [here][migrating_node_red] to export your settings and then import them into a new NodeRed space (note it is good practice to backup your code regardless of migration).
 
 ## Learn the Basics
 
@@ -128,6 +135,7 @@ There are plenty of freely available Bluemix resources stored in [GitHub][git_hu
 [additional_guide1]: http://www.ibm.com/cloud-computing/bluemix/getting-started/
 [additional_guide2]: http://www.ibm.com/developerworks/learn/cloud/bluemix/quick-start/index.html
 [CLI_Download]: https://GitHub.com/cloudfoundry/cli
+[migrating_node_red]: https://randomnerdtutorials.com/exporting-and-backing-up-your-node-red-nodes
 
 [developer_courses]: https://developer.ibm.com/courses/#courses
 [watson_starter-kits]: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/starter-kits.html
